@@ -1,24 +1,24 @@
+// @flow
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="container">
+    <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <span className="fs-4">Ronel Gonzales</span>
+      </a>
+
+      <ul className="nav nav-pills">
+        <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">Home</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">Features</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">Pricing</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">FAQs</a></li>
+        <li className="nav-item"><a href="#" className="nav-link">About</a></li>
+      </ul>
+    </header>
+  </div>
   );
 }
 
